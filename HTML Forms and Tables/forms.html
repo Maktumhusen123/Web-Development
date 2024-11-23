@@ -10,11 +10,11 @@
     <form action="">
         <p>
             <label for="username">Enter Username:</label>
-            <input id="username" type="text" name="username" placeholder="username">
+            <input id="username" type="text" name="username" placeholder="username" required>
         </p>
         <p>
             <label for="password">Enter Password:</label>
-            <input id="password" type="password" name="password" placeholder="password">
+            <input id="password" type="password" name="password" placeholder="password" minlength="5" maxlength="20" required >
         </p>
         <p>
             <label for="color">Choose a color:</label>
@@ -22,7 +22,7 @@
         </p>
         <p>
             <label for="num">Choose a Number:</label>
-            <input id="num" type="number" min="1" max="1000000000" placeholder="enter a number"name="number">
+            <input id="num" type="number" min="1" max="1000" placeholder="enter a number"name="number">
         </p>
 
         <!-- <input type="submit" value="Click Me"> -->
