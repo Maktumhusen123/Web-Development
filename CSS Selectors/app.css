@@ -1,0 +1,77 @@
+/* 
+    * is used as universal selector, which selects all elements.
+    tagname is used as individual selector to selct that element.
+    , is used combine multiple selectors.
+    # can be used to access id attribute
+    . can be used to access class attribute
+*/
+body {
+    background-color: #F6F7C4;
+}
+
+button {
+    background-color: #80C4E9;
+    font-size: 20px; 
+}
+
+span {
+    color:#457b9b;
+}
+#signup {
+    background-color: #526E48;
+    color: #FBF8EF;
+}
+.tag {
+    background-color: #F96E2A;
+    color: #FFF7D1;
+}
+
+/* Descendent selectors */
+.posts a {
+    color:#457b9b;
+}
+footer a {
+    color: red;
+}
+
+/* Adjacent selector */
+h2 + button {
+    font-size: 20px;
+}
+
+/* Direct child */
+footer > a {
+    color: #a8dadc;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    color: green;
+}
+
+/* Pseudo classes: keyword added to a selector that specifies a special state of the selected element */
+a:hover{
+    color:blue;
+}
+
+button:hover{
+    background-color:darkorange;
+    color:white;
+}
+
+button:active{
+    background-color: #02c39a;
+}
+.posts:nth-of-type(2n){
+    background-color: #FBF8EF;
+}
+
+/* Pseudo Elements: keyword added to a selector that lets you style a particular part of selected element */
+h2::first-letter{
+    font-size: 40px;
+}
+p::selection{
+    background-color: #fcbf49;
+}
+
+/* Specificity: ID > CLASS, Attribute, & Pseudo class > ELEMENT and pseudo element  */
