@@ -1,0 +1,25 @@
+h1{
+    color:indigo;
+    background-color: rgb(151, 225, 47);
+}
+body{
+    background-color:rgb(216, 214, 63)  /* RGB Mode of Coloring*/
+}
+a{
+    color: #8F99CB; /* HEX codes mode of coloring */
+    text-decoration: none;
+}
+/* Text properties */
+h2{
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline red wavy;
+    letter-spacing: 15px;
+    font-size: 50px;
+}
+p{
+    color:green;
+    /* font-weight: bold; */
+    line-height: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
