@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Form demo</h1>
+    <form action="">
+        <p>
+            <label for="username">Enter Username:</label>
+            <input id="username" type="text" name="username" placeholder="username">
+        </p>
+        <p>
+            <label for="password">Enter Password:</label>
+            <input id="password" type="password" name="password" placeholder="password">
+        </p>
+        <p>
+            <label for="color">Choose a color:</label>
+            <input id="color" type="color" name="color">
+        </p>
+        <p>
+            <label for="num">Choose a Number:</label>
+            <input id="num" type="number" min="1" max="1000000000" placeholder="enter a number"name="number">
+        </p>
+
+        <!-- <input type="submit" value="Click Me"> -->
+         <button>Submit</button>
+         <button type="button">Regular button</button>
+    </form>
+
+    <h2>More Inputs</h2>
+    <form action="">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">Yes</label>
+        <p>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="trans" value="trans">
+            <label for="trans">Transgender</label>
+        </p>
+        
+        <Select name="state" id="state">
+            <option value="">Select your State</option>
+            <option value="karnataka">Karnataka</option>
+            <option value="kerala">Kerala</option>
+            <option value="Tamilnadu">Tamilnadu</option>
+        </Select>
+
+        <p>
+            <label for="volume">Choose Sound Range:</label>
+            <input type="range" name="volrange" id="volume" min="0" step="20" max="100">
+        </p>
+        <p>
+            <label for="address">Enter your address:</label><br>
+            <textarea name="address" id="address" rows="10" cols="40" placeholder="Enter your address here">
+            </textarea>
+        </p>
+        
+        <button>Submit</button>
+    </form>
+</body>
+</html>
