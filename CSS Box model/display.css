@@ -1,0 +1,12 @@
+h1{
+    background-color: #DEAA79;
+    display: inline;
+}
+
+span{
+    background-color: #80C4E9;
+    display: block;
+}
+/* Elements with inline: height, width ignored,padding margin are lightly observed */
+/* Elements with block: all will be respected */
+/* Elements with inline-block behave like inline but height, width, padding margin are respected */
